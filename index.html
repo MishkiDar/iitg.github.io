@@ -1132,7 +1132,7 @@
     </div>
 </section>
 
-<!-- AI-ASSISTANT БЛОК -->
+<!-- AI-ASSISTANT БЛОК (ИСПРАВЛЕННЫЙ С ЧАТОМ) -->
 <section class="ai-assistant" id="tg-bot">
     <div class="container">
         <div>
@@ -1151,8 +1151,42 @@
             </a>
         </div>
         
-        <div style="background: rgba(255,255,255,0.05); border-radius: 32px; padding: 30px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); min-height: 200px;">
-            <!-- Декоративный элемент -->
+        <!-- ИСПРАВЛЕННЫЙ БЛОК ЧАТА (тёмная тема) -->
+        <div style="background: rgba(255,255,255,0.05); border-radius: 32px; padding: 24px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1);">
+            <div style="display: flex; flex-direction: column; gap: 16px;">
+                <!-- Сообщение бота -->
+                <div style="display: flex; gap: 12px; align-items: flex-start;">
+                    <div style="width: 40px; height: 40px; background: var(--accent-gold); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--primary-dark); font-size: 20px; flex-shrink: 0;">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); padding: 14px 18px; border-radius: 18px; border-bottom-left-radius: 4px; max-width: 80%;">
+                        <p style="color: white; font-size: 14px; margin: 0;">Здравствуйте! Я помогу с КАСКО. Назовите марку авто и год выпуска.</p>
+                        <span style="color: rgba(255,255,255,0.4); font-size: 10px; margin-top: 4px; display: block;">10:32</span>
+                    </div>
+                </div>
+                
+                <!-- Сообщение пользователя -->
+                <div style="display: flex; gap: 12px; align-items: flex-start; justify-content: flex-end;">
+                    <div style="background: var(--accent-gold-gradient); padding: 14px 18px; border-radius: 18px; border-bottom-right-radius: 4px; max-width: 80%; order: 1;">
+                        <p style="color: var(--primary-dark); font-size: 14px; margin: 0; font-weight: 500;">Mercedes E-Class 2023</p>
+                        <span style="color: rgba(10,20,47,0.5); font-size: 10px; margin-top: 4px; display: block; text-align: right;">10:33</span>
+                    </div>
+                    <div style="width: 40px; height: 40px; background: var(--accent-gold); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--primary-dark); font-size: 20px; flex-shrink: 0; order: 0;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                
+                <!-- Сообщение бота -->
+                <div style="display: flex; gap: 12px; align-items: flex-start;">
+                    <div style="width: 40px; height: 40px; background: var(--accent-gold); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: var(--primary-dark); font-size: 20px; flex-shrink: 0;">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); padding: 14px 18px; border-radius: 18px; border-bottom-left-radius: 4px; max-width: 80%;">
+                        <p style="color: white; font-size: 14px; margin: 0;">Есть 5 предложений: полное КАСКО от 145 000 ₽, с франшизой от 89 000 ₽. Подключаю менеджера для оформления?</p>
+                        <span style="color: rgba(255,255,255,0.4); font-size: 10px; margin-top: 4px; display: block;">10:33</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
